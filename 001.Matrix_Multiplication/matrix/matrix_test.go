@@ -83,3 +83,14 @@ func Test2x1_1x3(t *testing.T) {
 		t.Errorf("Given: %#v, expected: %#v", given, C)
 	}
 }
+
+func TestWrongDimensions(t *testing.T) {
+	A := Matrix{{2, 2}}
+	B := Matrix{{3, 3, 3}}
+
+	_, err := Multiply(A, B)
+
+	if err == nil {
+		t.Errorf("Cannot multiply %d x %d by %d x %d", len(A), len(A[0]), len(B), len(B[0]))
+	}
+}
