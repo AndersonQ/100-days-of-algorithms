@@ -36,3 +36,17 @@ AND 01 (1d)
   = 00 (0d)
 
 ```
+
+## Build
+
+```
+$ go build
+
+```
+
+
+## Run
+
+```
+./004.Counting_Ones [an int to count the number of one bits in it]
+```
