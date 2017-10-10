@@ -3,7 +3,7 @@ Monte Carlo &pi;
 
 Using the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) to calculate Pi
 
-The basic idea of Mont Carlo is:
+The basic idea of Monte Carlo is:
  1. Define a domain of possible inputs
  2. Generate inputs randomly from a probability distribution over the domain
  3. Perform a deterministic computation on the inputs
@@ -12,13 +12,13 @@ The basic idea of Mont Carlo is:
 Thus the algorithm to calculate Pi is:
 
 1. Given a circle inscribed in a square with side length 1.
-2. randomly draw `n` points (x, y) | x,y in [0.0,1.0)
+2. randomly draw `n` points `(x, y) | x,y in [0.0,1.0)`
 3. Count the amount of points inside the circle
-4. <code>&pi;</code> = 4 * (points inside the circle) / `n`
+4. <code>&pi;</code>` = 4 * (points inside the circle) / n`
 
 A point `(x, y)` is inside the circle if:
 
-<code>x<sup>2</sup></code> + <code>y<sup>2</sup></code> <= 1
+<code>x<sup>2</sup></code>` + `<code>y<sup>2</sup></code>` <= 1`
 
 ## Build
 
