@@ -15,9 +15,7 @@ $ go build
  
 ``` 
 $ ./011.Sieve.of.Eratosthenes N
- 
-$ ./008.Bubble.Sort 3 2 1 
- 
+  
 ```
 
 References
