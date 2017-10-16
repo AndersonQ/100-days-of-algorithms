@@ -10,7 +10,7 @@ Inspired by [n-days-challenge](https://www.google.com.br/search?q=days+challenge
 [100DaysOfCode](http://100daysofcode.com/) and so on. I decided to join in, but
 with a wee tweak. It will be 100-days-of-algorithms in 140 days. Let's be honest
 life is a hurry (at last mine), the challenge will get into the Xmas break, and
-I might lose one day or another because I'm travelling, too tired or any thing else.
+I might lose one day or another because I'm travelling, too tired or anything else.
 
 ## The Rules
 
