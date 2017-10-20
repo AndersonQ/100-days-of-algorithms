@@ -16,9 +16,9 @@ func main() {
 	B := readMarix(n, m)
 
 	fmt.Println("A:")
-	printMarix(A)
+	printMatrix(A)
 	fmt.Println("B:")
-	printMarix(B)
+	printMatrix(B)
 
 	C, err := matrix.Multiply(A, B)
 	if err != nil {
@@ -26,7 +26,7 @@ func main() {
 	}
 
 	fmt.Println("C:")
-	printMarix(C)
+	printMatrix(C)
 }
 
 func readMarix(n, m int) matrix.Matrix {
@@ -45,7 +45,7 @@ func readMarix(n, m int) matrix.Matrix {
 	return M
 }
 
-func printMarix(M matrix.Matrix) matrix.Matrix {
+func printMatrix(M matrix.Matrix) matrix.Matrix {
 	for i := 0; i < len(M); i++ {
 		for j := 0; j < len(M[0]); j++ {
 			fmt.Printf("   %d ", M[i][j])
